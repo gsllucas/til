@@ -14,7 +14,6 @@ tar -czf folder_name.tar.gz folder_name/
 // To uncompress
 tar -xzf folder_name.tar.gz
 
-
 // To open files through the terminal
 xdg-open filename.extension
 
