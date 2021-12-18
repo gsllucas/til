@@ -1,0 +1,22 @@
+// To remove snap package
+sudo snap remove "package name"
+
+// To remove a file into a folder
+sudo rm -rvf "file path"
+
+// To concede super root permissions to that folder
+sudo chmod 777 -R ./*
+
+// To compress and uncompress folders
+// To compress
+tar -czf folder_name.tar.gz folder_name/
+
+// To uncompress
+tar -xzf folder_name.tar.gz
+
+
+// To open files through the terminal
+xdg-open filename.extension
+
+// Edit files through the terminal
+nano filename.extension
