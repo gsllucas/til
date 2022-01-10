@@ -20,3 +20,9 @@ xdg-open filename.extension
 
 // Edit files through the terminal
 nano filename.extension
+
+// To see pidof process running
+top
+
+// To kill process through the terminal
+sudo kill -9 <pidof>
