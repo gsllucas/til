@@ -1,0 +1,8 @@
+Rules:
+
+- Must not be inside a function
+- Must not be inside a for loop
+- Must not be inside a conditional
+
+- Should be declared always at the top of the component
+- Hooks que can be called inside of a custom hooks
