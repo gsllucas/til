@@ -1,0 +1,7 @@
+To revert a git pull:
+
+get the reflog of the point you want to comeback:
+git reflog
+
+reset to the reflog point:
+git reset --hard { reflog }
