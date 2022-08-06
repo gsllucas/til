@@ -1,0 +1,2 @@
+clear git cache, to set up new .gitignore files
+git rm -r --cached .
