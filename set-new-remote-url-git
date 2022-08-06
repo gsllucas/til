@@ -1,0 +1,3 @@
+#set new git remote url:
+
+git remote set-url origin <https://url>
