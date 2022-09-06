@@ -1,4 +1,18 @@
-To choose and set device on a debug view config for firebase analytics - Android:
-
+* To choose and set device on a debug view config for firebase analytics - Android:
 adb -s <emulator-name> shell setprop debug.firebase.analytics.app <app-package-name>
 adb -s emulator-5554 shell setprop debug.firebase.analytics.app com.coopersystem.curia
+
+* To turn off the analytics debug mode:
+adb shell setprop debug.firebase.analytics.app .none.
+
+* IOS:
+-FIRDebugEnabled
+-FIRDebugDisabled
+
+--
+
+* To set crashlytics debug mode:
+adb shell setprop log.tag.FirebaseCrashlytics DEBUG
+
+* To turn off the crashlytics debug mode:
+adb shell setprop log.tag.FirebaseCrashlytics INFO
