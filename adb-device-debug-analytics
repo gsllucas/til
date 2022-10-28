@@ -1,3 +1,9 @@
+* Steps:
+1. fvm flutter clean
+2. fvm flutter pub get
+3. adb -s <emulator-name> shell setprop debug.firebase.analytics.app <app-package-name>
+4. fvm flutter run
+
 * To list adb devices
 adb devices
 
