@@ -1,3 +1,6 @@
+* To list adb devices
+adb devices
+
 * To choose and set device on a debug view config for firebase analytics - Android:
 adb -s <emulator-name> shell setprop debug.firebase.analytics.app <app-package-name>
 adb -s emulator-5554 shell setprop debug.firebase.analytics.app com.coopersystem.curia
