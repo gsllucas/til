@@ -1,0 +1,48 @@
+Comandos de Docker
+
+- Criar o container de uma imagem
+docker run -it {nome_imagem}
+
+- Listar todos os containers
+docker ps -a
+
+- Listar containers ativos
+docker ps
+
+- Parar stopar um container em modo detached
+docker stop {id_container ou nome_container}
+
+- Startar um container
+docker start {id_container ou nome_container}
+
+- Iniciar um container em uma determinada porta em modo detached
+docker -d -p {porta_local}:{porta_container} {nome_image}
+
+- Criar um container com um nome personalizado
+docker run -d -p {porta_local}:{porta_container} —name {nome_container} {nome_imagem}
+
+- Pegar os logs do container
+docker logs {nome_container}
+
+- Remover container
+docker rm {nome_container}
+
+- Arquivo padrão para criação de imagens: Dockerfile
+
+- Buildar uma nova atualização de imagem
+docker build -t {nome:tag} . (Path do Dockerfile)
+
+- Fazer um pull de uma imagem do docker hub
+docker pull {nome_image}
+
+- Copiar arquivos entre container x máquina
+docker cp {nome_container}:{path} {path}
+
+- Informações sobre o container
+docker top {nome_container}
+
+- Inspecionar container 
+docker inspect {nome_container}
+
+- Verificar processamento dos containers executados
+docker stats ou docker stats {nome_container}
