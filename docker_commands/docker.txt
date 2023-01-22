@@ -46,3 +46,6 @@ docker inspect {nome_container}
 
 - Verificar processamento dos containers executados
 docker stats ou docker stats {nome_container}
+
+- Entrar em um container ativo em moodo attached
+sudo docker exec -it {nome_container} {ref_terminal}
