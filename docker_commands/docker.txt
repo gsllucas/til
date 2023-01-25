@@ -49,3 +49,6 @@ docker stats ou docker stats {nome_container}
 
 - Entrar em um container ativo em moodo attached
 sudo docker exec -it {nome_container} {ref_terminal}
+
+- grep container com a cadeia de string passada
+sudo docker ps | grep { nome }
