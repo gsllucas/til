@@ -52,3 +52,9 @@ sudo docker exec -it {nome_container} {ref_terminal}
 
 - grep container com a cadeia de string passada
 sudo docker ps | grep { nome }
+
+- Criar um volume
+sudo docker volume create { nome_volume }
+
+- Rodar um container com apontamento de volume:
+sudo docker run -d -p 3002:3002 --name { nome_container } -v { nome_volume ]:{ path_workdir } 2997fe7db0b2
