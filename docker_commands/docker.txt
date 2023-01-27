@@ -61,3 +61,9 @@ sudo docker run -d -p 3002:3002 --name { nome_container } -v { nome_volume ]:{ p
 
 - Inspecionar e checar o path onde o volume do container está sendo salvo
 sudo docker volume inspect { nome_volume }
+
+- Remover um volume
+sudo docker volume rm { nome_volume }
+
+- Remover todos os volumes não utilizados
+sudo docker volume prune
