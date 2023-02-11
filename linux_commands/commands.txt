@@ -25,3 +25,6 @@ top
 
 // To kill process through the terminal
 sudo kill -9 <pidof>
+
+// List installed apt packages
+apt list --installed
