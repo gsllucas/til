@@ -1,0 +1,107 @@
+Linux
+
+1. Universo GNU/Linux
+
+  Kernel - Núcleo
+    O Kernel é responsável por fazer o gerenciamento do sistema, e serve de ponte entre os aplicativos
+    e o processamento real de dados feito a nível de hardware
+
+    Kernel linux é comumente utilizado em servidores
+    Muito presente em IOT
+
+    GNU / Linux = é juncao do projeto GNU de Richard Stallman com o Minix criada por Linus Torvalds
+
+    Surgiram vários projetos em torno do Linux, como o debian, ubuntu, arch linux e etc.
+
+    O Linux é uma tecnologia que está dentro de um Kernel
+
+  Shell Linux
+    O Shell script é uma linguagem que vai servir de ponte de comunicacao entre o terminal shell e o
+    kernal do sistema operacional
+
+    Distruibuições Linux visam atender determinados nichos
+    O Debian é bem estável e tende a apenas subir atualizacoes quando elas já estao estaveis
+
+2. Sistema de Arquivos
+
+  O sinal de ~ sempre simboliza que voce está no diretório da home no terminal
+
+  /home - pasta do usuário - os arquivos pessoais sempre ficam na pasta home
+
+  Todos os arquivos e diretórios do sistema linux partem de uma unica origem: o diretório raiz. Representado
+  pela barra /
+
+  Mesmo que ha outros dispositivos físicos de armazenamento, eles semprem partem do diretório raiz
+
+  O unico usuário capaz de criar, mover ou alterar arquivos do diretório raiz, é o usuario root - usuario administrador
+
+  Binários executáveis /bin - comandos como cp, mv, ping, grep
+
+  Binários do sistema /sbins - comandos de funcoes do sistema - comandos como: fdisk, ifconfig
+
+  Programas diversos /usr 
+
+  Configurações do sistema /etc 
+
+  Bibliotecas /lib 
+
+  Opcionais /opt
+
+  Arquivos pessoais /home
+
+  Inicializacao e boot do sistemas /boot
+
+  Volumes e Mídias /mnt e /media
+
+  Servicos /srv 
+
+  Arquivos de dispositivos /dev 
+
+  Arquivos variáveis /var 
+
+  Processos do sistema /proc 
+
+  Arquivos temporários /tmp 
+
+3. Comandos de Shell
+
+  Gerenciamento de Arquivos e Pastas
+
+    - pwd - Informa em qual nível de diretório voce está atualmente
+    - cd <nome do folder> - navegar para o folder especificado
+    - ls - lista os arquivos e pastas disponíveis naquele diretório
+    - clear - limpa os logs do terminal
+    - touch <nome do arquivo> - cria um novo arquivo no nível do diretório em que voce estiver
+    - rm <nome do arquivo> - remove o arquivo criado
+    - mkdir <nome da pasta> - cria uma nova pasta dentro do nível do diretório
+    - rmdir <nome da pasta> - remove uma pasta vazia, sem arquivos dentro
+    - rm -rf <nome da pasta> remove uma pasta com arquivos dentro dela
+    - cp <nome do arquivo.ext> <caminho da pasta> copia os arquivos para o diretório específicado
+    - cp *.extensaodoarquivo <caminho da pasta> copia todos os arquivos com esta extensao para o diretório especificado
+    - mv <nome do arquivo> <caminho da pasta> move o arquivo para o diretório especificado
+    - mv *.x=extensao do arquivo <caminho da pasta> move todos os aqruivos com esta extensao para o diretório especificado
+    - mv <nome do arquivo> <novo nome do arquivo> renomeia o nome do arquivo
+
+  Gerenciamento de Arquivos e Usuários
+
+    - date - informa a data
+    - man <command> - manual de informacoes referente ao comando
+    - head -n2 - Pega as primeiras duas linhas de um arquivo
+    - tails -n2 - Pegar as ultimas duas linhas de um arquivo
+    - nano <nome do arquivo> abre o arquivo em um editor de texto dentro do terminal
+    - ls -a - lista os todos os arquivos e pastas, incluindo os arquivos e pastas ocultos
+    - history - lista o historico de comandos usados no terminal - interessante para ver o histórico de comandos dentro de um servidor
+    - history -cw - limpar o historico de comandos no terminal
+    - find . -name "nomedoarquivo.ext"
+    - shutdown - desligar o sistema
+    - reboot - reboot reinicia o sistema
+    - shutdown -c - cancela o shutdown programado
+    - open <nome do arquivo.ext> para abrir um arquivo através do terminal
+
+  Obter informacoes do hardware
+  
+
+4. Gerenciador de Pacotes do MAC
+
+  O Homebrew é o gerenciador e instalador de pacotes do MAC, assim como temos o apt, rpm, yum e dpkg no linux
+
