@@ -16,7 +16,7 @@ docker stop {id_container ou nome_container}
 docker start {id_container ou nome_container}
 
 - Iniciar um container em uma determinada porta em modo detached
-docker -d -p {porta_local}:{porta_container} {nome_image}
+docker run -d -p {porta_local}:{porta_container} {nome_image}
 
 - Criar um container com um nome personalizado
 docker run -d -p {porta_local}:{porta_container} —name {nome_container} {nome_imagem}
