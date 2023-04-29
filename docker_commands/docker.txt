@@ -25,7 +25,7 @@ docker run -d -p {porta_local}:{porta_container} —name {nome_container} {nome_
 docker logs {nome_container}
 
 - Remover container
-docker rm {nome_container}
+docker rm {nome_container} --force (to force remove on a running container without stopping it before)
 
 - Arquivo padrão para criação de imagens: Dockerfile
 
