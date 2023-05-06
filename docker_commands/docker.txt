@@ -73,3 +73,6 @@ sudo docker start $(sudo docker ps -a -q)
 
 - Stop all running containers
 sudo docker stop $(sudo docker ps -q)
+
+- Rename an already created container name
+sudo docker rename { old-name } { new-name }
