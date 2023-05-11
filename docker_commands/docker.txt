@@ -78,4 +78,4 @@ sudo docker stop $(sudo docker ps -q)
 sudo docker rename { old-name } { new-name }
 
 - Restart docker container by flag name
-sudo docker restart $(sudo docker ps -a -f "name=query_app" -q)
+sudo docker restart $(sudo docker ps -a -f "name=container_name" -q)
