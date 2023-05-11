@@ -1,0 +1,2 @@
+- sudo docker restart query-redis && sudo docker restart $(sudo docker ps -a -f "name=query_app" -q) && sudo docker restart query-nginx
+- sudo docker ps -a | grep query
