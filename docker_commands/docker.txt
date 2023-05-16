@@ -79,3 +79,6 @@ sudo docker rename { old-name } { new-name }
 
 - Restart docker container by flag name
 sudo docker restart $(sudo docker ps -a -f "name=container_name" -q)
+
+- Clear unused images, remove all dead and unused images
+sudo docker rmi $(sudo docker images -f dangling=true -aq)
