@@ -1,0 +1,9 @@
+macOS error when trying to running docker compose up with docker daemon
+
+Steps:
+
+navigate
+˜/.docker
+
+delete the file config.json
+rm config.json
