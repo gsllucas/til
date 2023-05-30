@@ -1,0 +1,5 @@
+To reload nginx file configuration
+sudo nginx -s reload
+
+To verify the sintax of a nginx file
+sudo nginx -t
