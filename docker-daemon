@@ -1,0 +1,3 @@
+listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+
+Escuta pelas requisições da API docker e gerenciar objetos do docker como imagens, containers, redes e volumes. O daemon pode também comunicar com outros daemons para gerenciar serviços Docker.
