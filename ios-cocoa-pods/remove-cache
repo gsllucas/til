@@ -1,0 +1,13 @@
+Clearing Specific pod
+
+pod cache clean --all # will clean all pods
+pod cache clean 'FortifySec' --all # will remove all installed 'FortifySec' pods 
+
+Complete cleanup (reset)
+
+rm -rf ~/Library/Caches/CocoaPods
+rm -rf Pods
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+pod deintegrate
+pod setup
+pod install
