@@ -1,1 +1,5 @@
-sudo lsof -i:port
+List specific port
+- sudo lsof -i:port
+
+List all listened ports
+- sudo lsof -i -P -n | grep LISTEN
