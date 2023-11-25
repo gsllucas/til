@@ -1,0 +1,12 @@
+list directory disk usage:
+
+du = disk usage
+-s = summarize
+
+du -sh { directory_path }
+
+====
+
+list how much the directory is using in disk (percentage)
+
+df -h { directory_path }
