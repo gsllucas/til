@@ -1,0 +1,5 @@
+sudo docker run --rm -e SONAR_HOST_URL="${SONARQUBE_HOST_URL}" -e SONAR_SCANNER_OPTS="-Dsonar.projectKey=${PROJECT_KEY}" -e SONAR_TOKEN="${SONAR_TOKEN}" -v "./:/usr/src" sonarsource/sonar-scanner-cli
+
+- Or just create docker-compose file
+- Must create a communication network between sonarqube docker ui application and sonar-scanner-cli docker
+- scanner-cli is necessary when not using a default scanner provided by sonarqube
