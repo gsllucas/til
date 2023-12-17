@@ -1,0 +1,5 @@
+# Must have postgresql-common and postgres
+# sudo apt-get install postgresql-common
+# sudo apt-get install postgresql
+
+psql -U { user } { database_name } -h { host } -p { PORT_IF_RUNNING_IN_DIFFERENT_WITH_DOCKER }
