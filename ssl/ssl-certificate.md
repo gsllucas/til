@@ -2,7 +2,7 @@
 
 nGINX Server
 
-1. Install wit apt
+1. Install with apt
 `sudo apt install nginx certbot python3-certbot-nginx`
 
 or instal with snap
