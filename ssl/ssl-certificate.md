@@ -1,4 +1,4 @@
-# Generate SSL Certificate by Certbot and Letsencript
+# Generate SSL Certificate by Certbot and Letsencrypt
 
 nGINX Server
 
